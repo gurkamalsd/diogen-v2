@@ -9,132 +9,173 @@ export const heroContent = {
   headline: "Your health data exists.",
   headlineAccent: "Your doctor isn't using it.",
   subheadline:
-    "DioGen cross-references your DNA against 75+ blood biomarkers to build a protocol no generic advice could match. Supplements, nutrition, training — mapped to your genotype.",
-  cta: "Get your protocol",
-  ctaSecondary: "See how it works",
+    "DNA + comprehensive blood panel cross-referenced into a personalised protocol. Supplements, nutrition, training — mapped to your genotype. From $1,000.",
+  cta: "Get Started",
 };
 
-export const pressLogos = ["Nature", "The Lancet", "Cell", "NEJM", "JAMA"];
+export const pressLogos = ["Nature", "The Lancet", "Cell", "NEJM", "The New York Times"];
 
-export const howItWorksSteps = [
+export const guidedPathTabs = [
   {
-    step: "01",
-    title: "DNA collection",
+    label: "Supplement Protocol",
+    image: "/images/lifestyle-entrepreneur.png",
+    headline: "Precision supplements mapped to your DNA",
     description:
-      "A saliva kit ships to you. Swab, seal, send. Already have 23andMe or AncestryDNA data? Upload your raw file instead.",
-    image: "/images/step-dna-collection.png",
+      "No more guessing which supplements to take. Your protocol is built from your genetic variants and blood markers — right forms, right doses, right timing.",
+    dataCards: [
+      { label: "Magnesium", value: "400mg", sublabel: "Glycinate" },
+      { label: "Methylfolate", value: "800mcg", sublabel: "Active B9" },
+      { label: "Omega-3", value: "2g", sublabel: "EPA/DHA" },
+    ],
   },
   {
-    step: "02",
-    title: "Blood panel",
+    label: "Blood Analysis",
+    image: "/images/lifestyle-runner.png",
+    headline: "75+ biomarkers decoded against your genetics",
     description:
-      "Walk into any LabCorp or Quest location. Your panel covers 75+ biomarkers including hormones, inflammation, and micronutrients.",
-    image: "/images/step-blood-panel.png",
+      "Your blood panel isn't read in isolation — it's cross-referenced with your DNA to reveal what generic ranges miss entirely.",
+    dataCards: [
+      { label: "Vitamin D", value: "62", sublabel: "ng/mL" },
+      { label: "Ferritin", value: "89", sublabel: "ng/mL" },
+      { label: "hsCRP", value: "0.4", sublabel: "mg/L" },
+    ],
   },
   {
-    step: "03",
-    title: "Your protocol",
+    label: "DNA Insights",
+    image: "/images/lifestyle-couple.png",
+    headline: "138 clinically-studied SNPs decoded",
     description:
-      "Within 48 hours you receive a complete, prioritized protocol: supplements, nutrition, training, and the reasoning behind every recommendation.",
-    image: "/images/step-protocol.png",
+      "From methylation to detoxification, caffeine metabolism to inflammation — your genetic blueprint informs every recommendation.",
+    dataCards: [
+      { label: "MTHFR", value: "C677T", sublabel: "Heterozygous" },
+      { label: "CYP1A2", value: "Fast", sublabel: "Metabolizer" },
+      { label: "APOE", value: "3/3", sublabel: "Normal Risk" },
+    ],
   },
   {
-    step: "04",
-    title: "Refine and adjust",
+    label: "Lifestyle",
+    image: "/images/lifestyle-yoga.png",
+    headline: "Training, sleep and recovery — personalised",
     description:
-      "Your protocol comes with a support team that has full context on your data. Ask questions, adjust goals, refine over time.",
-    image: "/images/step-consultation.png",
+      "Your protocol extends beyond supplements. Training style, sleep optimization, and recovery strategies calibrated to your biology.",
+    dataCards: [
+      { label: "Sleep Score", value: "87", sublabel: "Optimal" },
+      { label: "Recovery", value: "92%", sublabel: "High" },
+      { label: "VO2 Est.", value: "48", sublabel: "mL/kg/min" },
+    ],
   },
 ];
 
-export const features = [
+export const pricingTiers = [
   {
-    label: "Methylation",
-    variant: "MTHFR C677T",
-    status: "OPTIMIZE" as const,
-    detail:
-      "Reduced folate conversion efficiency. Methylated B-vitamins recommended.",
+    name: "DNA Only",
+    price: "$399",
+    period: "one-time",
+    description: "Upload existing genetic data and receive your personalised protocol.",
+    featured: false,
+    features: [
+      "Upload 23andMe or AncestryDNA data",
+      "138 SNP analysis",
+      "Personalised supplement protocol",
+      "Nutrition recommendations",
+      "Digital protocol delivery",
+      "30-day money-back guarantee",
+    ],
+    cta: "Get Started",
   },
   {
-    label: "Caffeine",
-    variant: "CYP1A2",
-    status: "FAVORABLE" as const,
-    detail:
-      "Fast metabolizer. 200mg morning intake optimal. No circadian interference.",
+    name: "Complete",
+    price: "$1,000",
+    period: "one-time",
+    description: "The full DioGen experience — DNA kit, blood panel, and ongoing support.",
+    featured: true,
+    features: [
+      "Clinical-grade DNA kit shipped to you",
+      "75+ biomarker blood panel",
+      "Full cross-referenced protocol",
+      "Physician-reviewed recommendations",
+      "6-month follow-up retest",
+      "Ongoing protocol support",
+      "HSA / FSA eligible",
+    ],
+    cta: "Get Started",
   },
   {
-    label: "Vitamin D",
-    variant: "VDR Bsm1",
-    status: "HIGH RISK" as const,
-    detail:
-      "Impaired vitamin D receptor binding. Higher supplementation dose required.",
-  },
-  {
-    label: "Inflammation",
-    variant: "IL-6 GG",
-    status: "OPTIMIZE" as const,
-    detail:
-      "Elevated inflammatory response. Omega-3 EPA/DHA 2-3g/day recommended.",
-  },
-  {
-    label: "Detoxification",
-    variant: "GSTP1",
-    status: "FAVORABLE" as const,
-    detail:
-      "Normal glutathione pathway. Standard antioxidant support sufficient.",
-  },
-];
-
-export const stats = [
-  {
-    value: "94%",
-    description: "of clients show improved biomarkers at first retest",
-  },
-  {
-    value: "138",
-    description: "clinically-studied SNPs analyzed per protocol",
-  },
-  {
-    value: "75+",
-    description: "blood biomarkers cross-referenced with your DNA",
-  },
-  {
-    value: "$2,100+",
-    description: "average annual savings vs. concierge medicine",
+    name: "Premium",
+    price: "$2,500",
+    period: "one-time",
+    description: "Everything in Complete plus quarterly retesting and 1:1 consultation.",
+    featured: false,
+    features: [
+      "Everything in Complete",
+      "Quarterly blood retesting (4x/year)",
+      "1:1 consultation with physician",
+      "Priority protocol updates",
+      "Advanced pharmacogenomics panel",
+      "Dedicated support channel",
+      "Family member discount (20%)",
+    ],
+    cta: "Get Started",
   },
 ];
 
-export const pricingContent = {
-  price: "$1,000",
-  period: "one-time",
-  badge: "Full Precision Access",
-  deliverables: [
-    {
-      title: "DNA test kit",
-      description: "Clinical-grade sequencing of 138 health-relevant SNPs",
-    },
-    {
-      title: "Blood panel",
-      description:
-        "Comprehensive analysis covering 75+ metabolic biomarkers",
-    },
-    {
-      title: "Personalised protocol",
-      description:
-        "Physician-reviewed roadmap for supplements, nutrition, and training",
-    },
-    {
-      title: "6-month follow-up",
-      description:
-        "Post-implementation blood retest and protocol adjustment",
-    },
-    {
-      title: "Ongoing support",
-      description: "Protocol refinement as your goals and data evolve",
-    },
-  ],
-  cta: "Get your protocol",
-};
+export const testimonials = [
+  {
+    name: "Marcus T.",
+    role: "Software Engineer, 34",
+    quote:
+      "My vitamin D was critically low despite supplementing. DioGen found a VDR variant that explained everything — switched to the right form and my levels normalized in 8 weeks.",
+    image: "/images/lifestyle-runner.png",
+  },
+  {
+    name: "Sarah K.",
+    role: "Founder, 41",
+    quote:
+      "I'd been taking the wrong form of folate for years. The MTHFR insight alone was worth 10x the investment. My energy levels transformed.",
+    image: "/images/lifestyle-entrepreneur.png",
+  },
+  {
+    name: "David & Lisa M.",
+    role: "Couple, late 30s",
+    quote:
+      "We did it together — completely different protocols for completely different genetics. That's the point. Generic advice can't do this.",
+    image: "/images/lifestyle-couple.png",
+  },
+  {
+    name: "Priya R.",
+    role: "Yoga Instructor, 29",
+    quote:
+      "The recovery and sleep recommendations were game-changing. My inflammation markers dropped 40% at the 6-month retest.",
+    image: "/images/lifestyle-yoga.png",
+  },
+];
+
+export const scienceJournals = [
+  {
+    name: "Nature",
+    stat: "47",
+    statLabel: "cited studies",
+    description: "Foundational genomics and SNP-phenotype associations powering our variant database.",
+  },
+  {
+    name: "The Lancet",
+    stat: "31",
+    statLabel: "cited studies",
+    description: "Clinical outcomes data validating supplement-genotype interaction protocols.",
+  },
+  {
+    name: "Cell",
+    stat: "28",
+    statLabel: "cited studies",
+    description: "Molecular biology research informing metabolic pathway analysis.",
+  },
+  {
+    name: "NEJM",
+    stat: "19",
+    statLabel: "cited studies",
+    description: "Evidence-based clinical guidelines underlying physician review standards.",
+  },
+];
 
 export const faqItems = [
   {
@@ -160,7 +201,7 @@ export const faqItems = [
   {
     question: "Can I use existing DNA data?",
     answer:
-      "Yes. If you already have raw DNA data from 23andMe or AncestryDNA, you can upload it directly. We'll adjust your pricing accordingly since you won't need the saliva kit.",
+      "Yes. If you already have raw DNA data from 23andMe or AncestryDNA, you can upload it directly. Our DNA Only tier at $399 is built for exactly this use case.",
   },
   {
     question: "What if I'm not satisfied?",

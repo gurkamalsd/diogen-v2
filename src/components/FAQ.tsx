@@ -13,13 +13,15 @@ function FAQItem({
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="overflow-hidden rounded-xl bg-white shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
+    <div className="border-b border-border/60">
       <button
-        className="flex w-full items-center justify-between gap-4 px-7 py-6 text-left transition-colors hover:bg-cream/50"
+        className="flex w-full items-center justify-between gap-4 py-6 text-left transition-colors hover:opacity-80"
         onClick={() => setOpen(!open)}
         aria-expanded={open}
       >
-        <span className="text-base font-semibold text-text">{question}</span>
+        <span className="text-base md:text-lg font-semibold text-text">
+          {question}
+        </span>
         {open ? (
           <Minus className="h-5 w-5 flex-shrink-0 text-text-secondary" />
         ) : (
@@ -33,7 +35,7 @@ function FAQItem({
         }}
       >
         <div className="overflow-hidden">
-          <p className="px-7 pb-6 text-base leading-relaxed text-text-secondary">
+          <p className="pb-6 text-base leading-relaxed text-text-secondary">
             {answer}
           </p>
         </div>
@@ -47,15 +49,12 @@ export default function FAQ() {
     <section id="faq" className="bg-cream px-6 py-[120px] md:py-[160px]">
       <div className="mx-auto max-w-3xl">
         <FadeUp>
-          <h2
-            className="text-center text-4xl font-bold tracking-[-0.02em] text-text md:text-5xl"
-            style={{ fontFamily: "var(--font-headline)" }}
-          >
+          <h2 className="text-center text-4xl md:text-5xl font-[family-name:var(--font-headline)] font-medium tracking-[-0.03em] text-text">
             Common questions
           </h2>
         </FadeUp>
 
-        <div className="mt-14 space-y-4">
+        <div className="mt-14 border-t border-border/60">
           {faqItems.map((item, i) => (
             <FadeUp key={item.question} delay={i * 0.06}>
               <FAQItem question={item.question} answer={item.answer} />

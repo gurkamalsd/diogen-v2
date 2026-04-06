@@ -1,13 +1,12 @@
 import './index.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import PressMarquee from './components/PressMarquee'
-import HowItWorks from './components/HowItWorks'
-import Features from './components/Features'
+import GuidedPath from './components/GuidedPath'
 import Pricing from './components/Pricing'
-import Stats from './components/Stats'
+import Testimonials from './components/Testimonials'
+import Science from './components/Science'
 import FAQ from './components/FAQ'
-import EmailCapture from './components/EmailCapture'
+import PreFooterCTA from './components/PreFooterCTA'
 import Footer from './components/Footer'
 
 function App() {
@@ -16,13 +15,12 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <PressMarquee />
-        <HowItWorks />
-        <Features />
+        <GuidedPath />
         <Pricing />
-        <Stats />
+        <Testimonials />
+        <Science />
         <FAQ />
-        <EmailCapture />
+        <PreFooterCTA />
       </main>
       <Footer />
     </>
