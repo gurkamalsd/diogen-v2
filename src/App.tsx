@@ -1,12 +1,31 @@
 import './index.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import PressMarquee from './components/PressMarquee'
+import HowItWorks from './components/HowItWorks'
+import Features from './components/Features'
+import Pricing from './components/Pricing'
+import Stats from './components/Stats'
+import FAQ from './components/FAQ'
+import EmailCapture from './components/EmailCapture'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-cream">
-      <h1 className="text-4xl font-bold text-primary text-center pt-20 font-[family-name:var(--font-headline)]">
-        DioGen — Loading...
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <PressMarquee />
+        <HowItWorks />
+        <Features />
+        <Pricing />
+        <Stats />
+        <FAQ />
+        <EmailCapture />
+      </main>
+      <Footer />
+    </>
   )
 }
 
