@@ -65,7 +65,7 @@ export default function Science() {
                     <p className="text-4xl font-[family-name:var(--font-headline)] font-medium text-text tracking-tight">
                       {journal.stat}
                     </p>
-                    <p className="text-sm text-text-muted font-medium">
+                    <p className="text-sm text-[var(--color-text-secondary)] font-medium">
                       {journal.statLabel}
                     </p>
                   </div>
@@ -83,7 +83,7 @@ export default function Science() {
         {/* Methodology note */}
         <FadeUp delay={0.4}>
           <div className="mt-16 text-center">
-            <p className="text-sm text-text-muted max-w-2xl mx-auto leading-relaxed">
+            <p className="text-sm text-[var(--color-text-secondary)] max-w-2xl mx-auto leading-relaxed">
               Our protocols reference 125+ peer-reviewed studies across genomics,
               nutrition science, and clinical medicine. Every variant-supplement
               interaction is graded by evidence strength before inclusion.

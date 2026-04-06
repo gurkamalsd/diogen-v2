@@ -30,8 +30,8 @@ export default function Testimonials() {
                   loading="lazy"
                 />
 
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+                {/* Gradient overlay — stronger scrim for text legibility */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
 
                 {/* Content */}
                 <div className="absolute inset-x-0 bottom-0 p-6">

@@ -57,7 +57,7 @@ export default function Hero() {
       {videoFailed && <div className="absolute inset-0 bg-dark" />}
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl px-6 pt-20">
+      <div className="relative z-10 max-w-4xl px-6 pt-20 pb-40 md:pb-48">
         <FadeUp>
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-[family-name:var(--font-headline)] font-medium text-white tracking-[-0.03em] leading-[1.05]">
             {heroContent.headline}
