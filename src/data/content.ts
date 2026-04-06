@@ -6,8 +6,8 @@ export const navLinks = [
 ];
 
 export const heroContent = {
-  headline: "Your health data exists.",
-  headlineAccent: "Your doctor isn't using it.",
+  headline: "The science of you,",
+  headlineAccent: "every day.",
   subheadline:
     "DNA + comprehensive blood panel cross-referenced into a personalised protocol. Supplements, nutrition, training — mapped to your genotype. From $1,000.",
   cta: "Get Started",
