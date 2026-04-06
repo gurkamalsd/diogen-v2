@@ -48,7 +48,7 @@ export default function GuidedPath() {
         <div className="mt-14">
           <div className="relative overflow-hidden rounded-3xl">
             {/* Lifestyle image */}
-            <img
+            <img loading="lazy"
               src={tab.image}
               alt={tab.label}
               className="w-full h-[400px] md:h-[560px] object-cover"

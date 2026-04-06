@@ -4,7 +4,7 @@ export default function PreFooterCTA() {
   return (
     <section className="relative min-h-[60vh] flex items-center justify-center text-center overflow-hidden">
       {/* Background image */}
-      <img
+      <img loading="lazy"
         src="/images/lifestyle-outdoor.png"
         alt=""
         className="absolute inset-0 w-full h-full object-cover"
