@@ -17,10 +17,11 @@
   --color-alert: #FB923C;
   --color-data: #38BDF8;
 
-  /* Typography */
+  /* Typography — exposed as --font-* for Tailwind v4 font-* utilities */
   --font-headline: 'Manrope', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
 }
 
 body {

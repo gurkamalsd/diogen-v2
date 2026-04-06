@@ -7,7 +7,7 @@ export default function HowItWorks() {
       <div className="mx-auto max-w-7xl">
         <FadeUp>
           <p
-            className="text-xs font-semibold uppercase tracking-[0.15em] text-primary"
+            className="text-xs font-semibold uppercase tracking-[0.1em] text-primary"
             style={{ fontFamily: "var(--font-headline)" }}
           >
             How it works

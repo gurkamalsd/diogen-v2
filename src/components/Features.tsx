@@ -13,7 +13,7 @@ export default function Features() {
       <div className="mx-auto max-w-7xl">
         <FadeUp>
           <p
-            className="text-xs font-semibold uppercase tracking-[0.15em] text-primary-light"
+            className="text-xs font-semibold uppercase tracking-[0.1em] text-primary-light"
             style={{ fontFamily: "var(--font-headline)" }}
           >
             What we analyze
