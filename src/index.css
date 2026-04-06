@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* DioGen brand colors - Levels.com aesthetic */
+  --color-cream: #fbf9f8;
+  --color-cream-dark: #f5f3f3;
+  --color-dark: #0E0E0E;
+  --color-dark-surface: #1A1A1A;
+  --color-primary: #0060ab;
+  --color-primary-light: #3399ff;
+  --color-text: #1C1917;
+  --color-text-secondary: #57534E;
+  --color-text-muted: #9CA3AF;
+  --color-border: #E7E5E4;
+  --color-favorable: #34D399;
+  --color-alert: #FB923C;
+  --color-data: #38BDF8;
+
+  /* Typography */
+  --font-headline: 'Manrope', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
