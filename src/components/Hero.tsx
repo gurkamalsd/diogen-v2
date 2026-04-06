@@ -2,30 +2,30 @@ import { useState } from "react";
 import { heroContent, pressLogos } from "../data/content";
 import FadeUp from "./FadeUp";
 
-/** Per-journal faux-logo styling */
+/** Per-journal faux-logo styling — bigger and more logo-like */
 const journalStyles: Record<
   string,
   { className: string; style?: React.CSSProperties; display?: string }
 > = {
   Nature: {
-    className: "italic font-normal text-sm md:text-base",
+    className: "italic font-normal text-xl md:text-2xl",
     style: { fontFamily: "Georgia, 'Times New Roman', serif" },
   },
   "The Lancet": {
-    className: "font-extrabold uppercase tracking-[0.15em] text-xs md:text-sm",
+    className: "font-extrabold uppercase tracking-[0.15em] text-base md:text-lg",
     style: { fontFamily: "var(--font-headline)" },
     display: "THE LANCET",
   },
   Cell: {
-    className: "italic font-medium text-sm md:text-base",
+    className: "italic font-medium text-xl md:text-2xl",
     style: { fontFamily: "Georgia, 'Times New Roman', serif" },
   },
   NEJM: {
-    className: "font-bold uppercase tracking-wider text-sm md:text-base",
+    className: "font-bold uppercase tracking-wider text-lg md:text-xl",
     style: { fontFamily: "var(--font-headline)" },
   },
   "The New York Times": {
-    className: "font-extrabold tracking-wider uppercase text-xs md:text-sm",
+    className: "font-extrabold tracking-wider uppercase text-sm md:text-base",
     style: { fontFamily: "var(--font-headline)" },
     display: "The New York Times",
   },
@@ -82,19 +82,22 @@ export default function Hero() {
         </FadeUp>
       </div>
 
-      {/* Press logos at bottom of hero */}
-      <div className="absolute bottom-8 left-0 right-0 z-10">
+      {/* Bottom gradient for logo legibility */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/70 to-transparent z-[5]" />
+
+      {/* Press logos pinned to bottom */}
+      <div className="absolute bottom-0 left-0 right-0 z-10 pb-6">
         <FadeUp delay={0.5}>
-          <div className="flex items-center justify-center gap-8 md:gap-16 opacity-50 flex-wrap px-6">
+          <div className="flex items-center justify-center gap-8 md:gap-16 flex-wrap px-6">
             {pressLogos.map((name) => {
               const s = journalStyles[name] ?? {
-                className: "italic font-medium text-sm md:text-base",
+                className: "italic font-medium text-xl md:text-2xl",
                 style: { fontFamily: "Georgia, 'Times New Roman', serif" },
               };
               return (
                 <span
                   key={name}
-                  className={`text-white/80 select-none ${s.className}`}
+                  className={`text-white/60 select-none ${s.className}`}
                   style={s.style}
                 >
                   {s.display ?? name}

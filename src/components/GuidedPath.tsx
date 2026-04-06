@@ -32,10 +32,10 @@ export default function GuidedPath() {
               <button
                 key={t.label}
                 onClick={() => setActiveTab(i)}
-                className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
+                className={`px-6 py-2 rounded-full text-sm font-semibold transition-all ${
                   i === activeTab
-                    ? "bg-dark text-white shadow-lg"
-                    : "bg-white text-text-secondary border border-border hover:bg-cream-dark"
+                    ? "bg-black text-white"
+                    : "text-[var(--color-text-secondary)] hover:text-[var(--color-text)] border border-[var(--color-border)]"
                 }`}
               >
                 {t.label}
@@ -71,7 +71,7 @@ export default function GuidedPath() {
                 {tab.dataCards.map((card) => (
                   <div
                     key={card.label}
-                    className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-5 py-3 min-w-[120px]"
+                    className="backdrop-blur-md bg-white/10 border border-white/20 rounded-xl px-5 py-3 min-w-[120px] text-white shadow-lg"
                   >
                     <p className="text-xs text-white/50 font-medium">
                       {card.label}

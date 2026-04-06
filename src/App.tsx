@@ -15,6 +15,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        {/* Seamless dark-to-cream transition */}
+        <div className="h-px bg-gradient-to-r from-transparent via-stone-300/30 to-transparent" />
         <GuidedPath />
         <Pricing />
         <Testimonials />
