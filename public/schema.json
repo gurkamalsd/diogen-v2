@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "DioGen",
+      "url": "https://getdiogen.com",
+      "description": "Precision health genomics. Cross-reference your DNA against blood biomarkers to build a personalised health protocol.",
+      "sameAs": []
+    },
+    {
+      "@type": "Product",
+      "name": "DioGen Complete Protocol",
+      "description": "DNA test kit + comprehensive blood panel (75+ biomarkers) + physician-reviewed personalised protocol + 6-month follow-up",
+      "brand": {"@type": "Brand", "name": "DioGen"},
+      "offers": {
+        "@type": "Offer",
+        "price": "1000",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://getdiogen.com/v2"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does DioGen work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We collect your saliva for DNA analysis and send you to LabCorp or Quest for a blood panel covering 75+ biomarkers. Our system cross-references your genetic variants against your blood data to generate a personalised protocol."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my genetic data secure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your privacy is non-negotiable. DNA processing happens with HIPAA-compliant infrastructure. We never sell your data, never share it with third parties, and you can request full deletion at any time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's included in the protocol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your protocol covers exact supplement recommendations, nutrition adjustments, training modifications, sleep optimization, and drug interaction warnings — all mapped to your genotype with evidence confidence scores."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who reviews the protocol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every protocol is reviewed by a licensed physician. The analysis is grounded in peer-reviewed research from Nature, The Lancet, Cell, and NEJM."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use existing DNA data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If you already have raw DNA data from 23andMe or AncestryDNA, you can upload it directly."
+          }
+        }
+      ]
+    }
+  ]
+}

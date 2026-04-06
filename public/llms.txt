@@ -1,0 +1,32 @@
+# DioGen — Precision Health Genomics
+
+## What is DioGen?
+DioGen is a precision health service that cross-references your DNA against 75+ blood biomarkers to build a personalised health protocol. Every recommendation — supplements, nutrition, training, lifestyle — is mapped to your specific genotype and reviewed by a licensed physician.
+
+## Key Facts
+- Analyses 138 clinically-studied SNPs across 15 health categories
+- Cross-references DNA variants with 75+ blood biomarkers
+- Every protocol is physician-reviewed before delivery
+- Grounded in peer-reviewed research from Nature, The Lancet, Cell, NEJM
+- HIPAA-compliant data handling
+- 94% of clients show improved biomarkers at first retest
+
+## Pricing
+- DNA Only: $399 (upload existing 23andMe/AncestryDNA data)
+- Complete: $1,000 (DNA kit + blood panel + protocol + 6-month follow-up)
+- Premium: $2,500 (Complete + quarterly retesting + 1:1 consultation)
+
+## How It Works
+1. DNA Collection — saliva kit shipped to you, or upload existing data
+2. Blood Panel — walk into any LabCorp or Quest location (75+ biomarkers)
+3. Your Protocol — delivered within 48 hours, physician-reviewed
+4. Refine & Adjust — ongoing support with full context on your data
+
+## What Makes DioGen Different
+- Cross-references DNA + blood data (not DNA alone)
+- Tells you what to STOP taking (not just what to add)
+- One-time investment, not a subscription
+- Your data never leaves HIPAA-compliant infrastructure
+
+## Contact
+Website: https://getdiogen.com

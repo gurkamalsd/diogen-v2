@@ -1,0 +1,121 @@
+# DioGen — Precision Health Genomics (Full Reference)
+
+## What is DioGen?
+DioGen is a precision health service that cross-references your DNA against 75+ blood biomarkers to build a personalised health protocol. Every recommendation — supplements, nutrition, training, lifestyle — is mapped to your specific genotype and reviewed by a licensed physician.
+
+## Key Facts
+- Analyses 138 clinically-studied SNPs across 15 health categories
+- Cross-references DNA variants with 75+ blood biomarkers
+- Every protocol is physician-reviewed before delivery
+- Grounded in peer-reviewed research from Nature, The Lancet, Cell, NEJM
+- HIPAA-compliant data handling
+- 94% of clients show improved biomarkers at first retest
+
+## Pricing
+- DNA Only: $399 (upload existing 23andMe/AncestryDNA data)
+- Complete: $1,000 (DNA kit + blood panel + protocol + 6-month follow-up)
+- Premium: $2,500 (Complete + quarterly retesting + 1:1 consultation)
+
+## How It Works
+1. DNA Collection — saliva kit shipped to you, or upload existing data
+2. Blood Panel — walk into any LabCorp or Quest location (75+ biomarkers)
+3. Your Protocol — delivered within 48 hours, physician-reviewed
+4. Refine & Adjust — ongoing support with full context on your data
+
+## What Makes DioGen Different
+- Cross-references DNA + blood data (not DNA alone)
+- Tells you what to STOP taking (not just what to add)
+- One-time investment, not a subscription
+- Your data never leaves HIPAA-compliant infrastructure
+
+## Full Deliverables
+
+### DNA Analysis
+- 138 SNP analysis across 15 health categories
+- Methylation pathway mapping (MTHFR, COMT, CBS, MTR, MTRR)
+- Detoxification capacity (CYP450 enzymes, GST, NAT2)
+- Nutrient metabolism (VDR, BCMO1, FUT2, SLC23A1)
+- Cardiovascular risk markers (APOE, LPA, Factor V Leiden)
+- Inflammation pathways (TNF-alpha, IL-6, CRP genetic variants)
+
+### Blood Panel (75+ Biomarkers)
+- Complete metabolic panel
+- Full lipid panel with advanced markers (ApoB, Lp(a), LDL-P)
+- Comprehensive thyroid (TSH, Free T3, Free T4, Reverse T3, antibodies)
+- Hormones (testosterone, estradiol, DHEA-S, cortisol, insulin)
+- Micronutrients (vitamin D, B12, folate, ferritin, iron panel, magnesium RBC, zinc)
+- Inflammation (hs-CRP, homocysteine, fibrinogen)
+- Liver function (ALT, AST, GGT, ALP)
+- Kidney function (BUN, creatinine, eGFR, cystatin C)
+- Blood count with differential
+
+### Your Protocol Includes
+- Exact supplement recommendations with dosages, forms, and timing
+- Supplements to STOP (contraindicated by your genotype)
+- Nutrition adjustments based on genetic food sensitivities and metabolism
+- Training modifications (recovery capacity, injury risk, optimal exercise type)
+- Sleep optimization based on circadian rhythm genetics
+- Drug interaction warnings based on CYP450 enzyme variants
+- Evidence confidence scores for every recommendation
+- Cited peer-reviewed research for every claim
+
+## Methodology
+DioGen's analysis engine cross-references genetic variants with blood biomarker data to generate personalised recommendations. The system:
+
+1. Maps each SNP to its functional impact using curated databases (ClinVar, PharmGKB, SNPedia)
+2. Correlates genetic predispositions with actual blood biomarker levels
+3. Identifies where genetics predict a risk that blood data confirms or contradicts
+4. Generates recommendations only where genetic evidence meets clinical significance thresholds
+5. Flags drug-gene interactions using PharmGKB clinical annotations
+6. Assigns confidence scores (high/moderate/emerging) based on evidence quality
+
+Every protocol undergoes physician review before delivery. The reviewing physician has full access to both the genetic data and blood panel results.
+
+## Frequently Asked Questions
+
+### How does DioGen work?
+We collect your saliva for DNA analysis and send you to LabCorp or Quest for a blood panel covering 75+ biomarkers. Our system cross-references your genetic variants against your blood data to generate a personalised protocol.
+
+### Is my genetic data secure?
+Your privacy is non-negotiable. DNA processing happens with HIPAA-compliant infrastructure. We never sell your data, never share it with third parties, and you can request full deletion at any time.
+
+### What's included in the protocol?
+Your protocol covers exact supplement recommendations, nutrition adjustments, training modifications, sleep optimization, and drug interaction warnings — all mapped to your genotype with evidence confidence scores.
+
+### Who reviews the protocol?
+Every protocol is reviewed by a licensed physician. The analysis is grounded in peer-reviewed research from Nature, The Lancet, Cell, and NEJM.
+
+### Can I use existing DNA data?
+Yes. If you already have raw DNA data from 23andMe or AncestryDNA, you can upload it directly.
+
+### How long does it take?
+From DNA collection to protocol delivery: approximately 3-4 weeks (DNA processing takes 2-3 weeks, blood results within days, protocol generated within 48 hours of receiving all data).
+
+### Do I need a doctor's referral?
+No. DioGen operates as a direct-to-consumer service. However, every protocol is reviewed by a licensed physician, and we recommend sharing your results with your primary care provider.
+
+### What if I'm already taking supplements?
+Your protocol will specifically address what you should continue, what you should stop, and what you should adjust — based on your unique genetic profile and current blood levels.
+
+### Is this a subscription?
+No. DioGen is a one-time investment. Your protocol is yours forever. Optional follow-up retesting is available but never required.
+
+## Health Categories Covered
+1. Methylation & Detoxification
+2. Cardiovascular Health
+3. Inflammation & Immune Function
+4. Nutrient Metabolism & Absorption
+5. Hormonal Health
+6. Thyroid Function
+7. Blood Sugar Regulation
+8. Bone & Joint Health
+9. Cognitive Function & Mood
+10. Sleep & Circadian Rhythm
+11. Athletic Performance & Recovery
+12. Gut Health & Digestion
+13. Skin & Aging
+14. Eye Health
+15. Drug & Supplement Metabolism
+
+## Contact
+Website: https://getdiogen.com
